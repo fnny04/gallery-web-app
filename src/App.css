@@ -11,17 +11,20 @@
   width: 100vw;
   padding: 40px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #8cc7c2;
   border-bottom: 2px solid #dbdbdb;
 }
 
 .navbar > a {
-  color: #262626;
-  background-color: #ffffff;
+  color: #fce26d;
+  text-decoration: underline;
+  background-color: #8cc7c2;
+  border-radius: 4px;
   font-size: large;
   font-weight: 400;
   margin: 0px 10px;
   text-decoration: none;
+  padding: 4px;
 }
 
 .navbar > a:focus {
@@ -30,16 +33,22 @@
 
 .studentInfo {
   margin-bottom: 20px;
+  background-color: #8cc7c2;
 }
 
-.studentName, .studentId {
-  background-color: #fff;
+.studentName,
+.studentId {
+  background-color: #8cc7c2;
+  color: antiquewhite;
 }
 
-.home, .not-found {
+.home,
+.not-found {
   width: 100vw;
   height: calc(100vh - 170px);
   display: flex;
+
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -90,7 +99,7 @@
   padding: 12px;
 }
 
-.captions{
+.captions {
   font-size: 14px;
   background-color: #fff;
   margin-bottom: 12px;
@@ -108,7 +117,7 @@
 .edit-btn > a {
   background-color: #fff;
   text-decoration: none;
-  color: #5eb9f6
+  color: #5eb9f6;
 }
 
 .delete-btn {
@@ -120,7 +129,8 @@
   cursor: pointer;
 }
 
-.edit-form, .add-form {
+.edit-form,
+.add-form {
   display: flex;
   flex-direction: column;
 }
@@ -131,7 +141,8 @@ label {
   width: 100%;
 }
 
-.edit-input, .add-input {
+.edit-input,
+.add-input {
   width: 100%;
   margin-top: 10px;
   border: 1px solid #dbdbdb;
